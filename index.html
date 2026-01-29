@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulto | مستشارك في دقيقة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Consulto</h1>
+        <p>مستشارك في دقيقة</p>
+    </header>
+
+    <section class="step">
+        <h2>اختر نوع المشكلة</h2>
+        <select id="category">
+            <option>تسويق</option>
+            <option>إدارة</option>
+            <option>مالية</option>
+            <option>قانوني</option>
+        </select>
+    </section>
+
+    <section class="step">
+        <h2>اختر طريقة الاستشارة</h2>
+        <select id="method">
+            <option>شات</option>
+            <option>مكالمة صوتية</option>
+            <option>مكالمة فيديو</option>
+        </select>
+    </section>
+
+    <button onclick="showConsultants()">اعرض المستشارين</button>
+
+    <a href="register.html">
+        <button>تسجيل مستخدم جديد</button>
+    </a>
+
+    <section id="result"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
