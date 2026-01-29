@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تسجيل مستخدم | Consulto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Consulto</h1>
+    <p>إنشاء حساب جديد</p>
+</header>
+
+<section class="step">
+    <h2>بيانات المستخدم</h2>
+
+    <input type="text" id="name" placeholder="الاسم الكامل">
+    <input type="email" id="email" placeholder="البريد الإلكتروني">
+    <input type="password" id="password" placeholder="كلمة المرور">
+
+    <select id="type">
+        <option value="">نوع الحساب</option>
+        <option>مستخدم</option>
+        <option>مستشار</option>
+    </select>
+
+    <button onclick="register()">تسجيل</button>
+</section>
+
+<p id="msg"></p>
+    <a href="index.html">
+        <button>الصفحة الرئيسية</button>
+    </a>
+
+<script src="script.js"></script>
+</body>
+</html>
